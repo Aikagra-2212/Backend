@@ -1,0 +1,20 @@
+GET http://127.0.0.1/employees
+
+###
+
+GET http://127.0.0.1/employees/64bd3f1bbdc872570f054497
+
+###
+
+POST http://127.0.0.1/employees
+Content-Type: application/json
+
+{
+    "name": "New Person",
+    "email": "abc@xyz.co.",
+    "mobileNo": 9810500276
+}
+
+###
+
+DELETE http://127.0.0.1/employees/64bd5c62d0eb38440f799a6d
