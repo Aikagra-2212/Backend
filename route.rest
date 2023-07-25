@@ -1,20 +1,20 @@
-GET http://127.0.0.1/employees
+GET http://kfin-project.onrender.com/employees
 
 ###
 
-GET http://127.0.0.1/employees/64bd3f1bbdc872570f054497
+GET https://kfin-project.onrender.com/employees/64bd75a9a264b3112f6e5df6
 
 ###
 
-POST http://127.0.0.1/employees
+POST https://kfin-project.onrender.com/employees
 Content-Type: application/json
 
 {
-    "name": "New Person",
-    "email": "abc@xyz.co.",
-    "mobileNo": 9810500276
+    "name": "aikagra",
+    "email": "aik@xyz.co.",
+    "mobileNo": 9850500276
 }
 
 ###
 
-DELETE http://127.0.0.1/employees/64bd5c62d0eb38440f799a6d
+DELETE http://127.0.0.1/employees/64bd77c0a264b3112f6e5e00
