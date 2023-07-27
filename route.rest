@@ -12,9 +12,8 @@ Content-Type: application/json
 {
     "name": "aikagra",
     "email": "aik@xyz.co.",
-    "mobileNo": 9850500276
+    "mobileNo": 9850500276 
 }
 
 ###
-
-DELETE http://127.0.0.1/employees/64bd77c0a264b3112f6e5e00
+DELETE https://kfin-project.onrender.com/employees/64c2188b99c7cdeaf52b4262
