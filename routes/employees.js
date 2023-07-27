@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router()
 const Employee = require('../models/employee')
-const cors = require('cors')
 
 //Getting all
 router.get('/', async (req,res) => {
