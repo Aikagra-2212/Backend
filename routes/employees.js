@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Employee = require('../models/employee')
+const cors = require('cors')
 
 //Getting all
 router.get('/', async (req,res) => {
@@ -18,7 +19,7 @@ router.get('/:id', getEmployee, (req,res) => {
 })
 
 //Creating one
-router.post('/', async (req,res) => {
+router.post('/', cors(), async (req,res) => {
     const employee = new Employee({
         name: req.body.name,
         email: req.body.email,
