@@ -18,7 +18,7 @@ router.get('/:id', getEmployee, (req,res) => {
 })
 
 //Creating one
-router.post('/', cors(), async (req,res) => {
+router.post('/', async (req,res) => {
     const employee = new Employee({
         name: req.body.name,
         email: req.body.email,
